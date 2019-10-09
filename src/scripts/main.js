@@ -2,3 +2,12 @@
 
 const firstSection = document.querySelector(".article__header")
 firstSection.textContent = "Welcome to the Ryan Crowley blog"
+
+// Use JavaScript to obtain a reference to all article__header elements and change their classList property value to article__header important.
+
+const allArticleHeaders = document.querySelectorAll(".article__header")
+
+for (let i = 0; i < allArticleHeaders.length; i++ ) {
+    allArticleHeaders[i].classList.add("important")
+}
+
