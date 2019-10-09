@@ -14,3 +14,7 @@ for (let i = 0; i < allArticleHeaders.length; i++ ) {
 // Obtain a reference the element with a class of dashed and remove it.
 const dashedEl = document.querySelector(".dashed")
 dashedEl.classList.remove("dashed")
+
+// Obtain a reference the element with a class of article_footer and add the class of goldenrod it.
+const footerEl = document.querySelector(".article__footer")
+footerEl.classList.add("goldenrod")
